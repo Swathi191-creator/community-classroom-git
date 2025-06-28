@@ -1,9 +1,15 @@
-public class Student {
-    public List<String> studentList = new List<String>{'Maths', 'Science', 'Social Studies', 'Computers'};
+public class Student{
 
-    public Student() {
-        for (String subject : studentList) {
-            System.debug('Student list: ' + subject);
+        public String name;
+        public integer age;
+
+        public Student(String name,integer age){
+            this.name=name;
+            this.age=age;
         }
-    }
+
+        public void show(){
+            system.debug('name:'+name);
+            system.debug('age:'+age);
+        }
 }
