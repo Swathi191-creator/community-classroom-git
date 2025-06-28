@@ -1,7 +1,9 @@
-public class Student{
+public class Student {
+    public List<String> studentList = new List<String>{'Maths', 'Science', 'Social Studies', 'Computers'};
 
-    public List<String> StudentList = new List<String>{'Maths','Science','Social Studies','Computers'};
-    for(String Student_List: StudentList){
-        system.debug('Student list'+ Student_List);
+    public Student() {
+        for (String subject : studentList) {
+            System.debug('Student list: ' + subject);
+        }
     }
 }
