@@ -36,6 +36,10 @@
         <members>*</members>
         <name>CustomObject</name>
     </types>
+     <types>
+        <members>Account_employee_id__c</members>
+        <name>CustomField</name>
+    </types>
 
     <version>64.0</version>
 </Package>
